@@ -1,0 +1,49 @@
+# Environnements virtuels Python
+.venv/
+venv/
+env/
+.env/
+ENV/
+
+# Caches Python et outils de développement et de test
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.tox/
+.nox/
+.cache/
+.coverage
+.coverage.*
+htmlcov/
+coverage.xml
+
+# Caches et fichiers de travail des notebooks
+.ipynb_checkpoints/
+.jupyter_cache/
+.virtual_documents/
+
+# Variables d’environnement et secrets locaux
+.env
+.env.*
+*.env
+*.env.*
+!.env.example
+
+# Données locales et modèles entraînés
+/data/
+/artifacts/
+
+# Logs et fichiers temporaires
+*.log
+logs/
+*.tmp
+*.temp
+*.swp
+*.swo
+*~
+tmp/
+temp/
+.DS_Store
+Thumbs.db
