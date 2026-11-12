@@ -1,0 +1,12 @@
+# Analyse des données et entraînement sur CPU.
+# Cible : CPython 3.12.15, Linux x86_64 (Ubuntu/WSL).
+# Versions vérifiées dans les métadonnées PyPI ; exécution à tester après installation.
+tensorflow-cpu==2.21.0
+pandas==2.3.3
+numpy==2.2.6
+scikit-learn==1.7.2
+matplotlib==3.10.7
+joblib==1.5.2
+
+# Noyau Python pour les notebooks dans VS Code.
+ipykernel==7.4.0
